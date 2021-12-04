@@ -49,14 +49,63 @@
         "buy_buttons",
         "description",
         "share"
-      ]
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1631695255c02c64ba": {
+      "type": "apps",
+      "blocks": {
+        "d9a97a01-86e2-4b20-9e6a-c863e72bd047": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "Noch keine Bewertung"
+          }
+        },
+        "8f667680-559b-4a9f-856f-4eeac6713291": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d9a97a01-86e2-4b20-9e6a-c863e72bd047",
+        "8f667680-559b-4a9f-856f-4eeac6713291"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "163146503551235a82": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Jetzt individuell anfragen"
+      }
     },
     "product-recommendations": {
-      "type": "product-recommendations"
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Mehr Sicherheit für dein Boot",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
     "main",
+    "1631695255c02c64ba",
+    "163146503551235a82",
     "product-recommendations"
   ]
 }

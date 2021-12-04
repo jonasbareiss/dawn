@@ -7,3 +7,8 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+layout/theme_old.liquid
+locales/de_old.json
+layout/password_old.liquid
+templates/Product_old.json
+templates/index_old.json

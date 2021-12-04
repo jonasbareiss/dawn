@@ -229,7 +229,7 @@
       "cart_quantity_error_html": "Du kannst deinem Warenkorb nur {{ quantity }} Stück dieses Artikels hinzufügen.",
       "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\">Versand</a> werden beim Checkout berechnet",
       "taxes_included_but_shipping_at_checkout": "Inklusive Steuern, Versand wird beim Checkout berechnet",
-      "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\">Versand </a> wird beim Checkout berechnet",
+      "taxes_included_and_shipping_policy_html": "Inkl. MwSt, inkl. <a href=\"{{ link }}\">Versand <\/a> nach Deutschland oder Österreich",
       "taxes_and_shipping_at_checkout": "Steuern und Versand werden beim Checkout berechnet",
       "headings": {
         "product": "Produkt",
@@ -394,6 +394,16 @@
       "expired": "Abgelaufen",
       "copy_code_success": "Code erfolgreich kopiert",
       "print_gift_card": "Drucken"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "review": {
+        "review_notice_html": "Bitte beachten Sie unsere {{ terms_of_service}}. Die {{ refund_policy }} nebst Muster-Widerrufsformular habe ich zur Kenntnis genommen."
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Ich möchte News und exklusive Angebote erhalten. Sie können den Newsletter jederzeit kostenlos abbestellen."
+      }
     }
   }
 }
