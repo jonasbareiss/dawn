@@ -484,7 +484,9 @@
     assign seo_media = product.featured_media
   endif
 -%}
-{% comment %}
+  
+  {% comment %}
+
 <script type="application/ld+json">
   {
     "@context": "http://schema.org/",
@@ -521,7 +523,48 @@
     ]
   }
 </script>
-{% endcomment %}
+
+ {% endcomment %}
+  
+  <!-- Copyright FeedArmy 2021 Version 3.06 -->
+<!-- FeedArmy tutorial found at https://feedarmy.com/kb/shopify-microdata-for-google-shopping/ -->
+
+<!-- CODE SETTINGS START -->
+<!-- CODE SETTINGS START -->
+
+<!-- Please add your alpha2 code, you can find it here: https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode -->
+{%- assign fa_product_id_alpha2_code = 'DE' -%}
+
+<!-- set your product id values are default, product_id, parent_id, sku-->
+{%- assign fa_product_id = 'default' -%}
+
+<!-- CODE SETTINGS END -->
+<!-- CODE SETTINGS END -->
+
+<!-- ==================================== -->
+<!-- DO NOT EDIT ANYTHING BELOW THIS LINE -->
+
+{%- if template contains 'product' -%}
+
+{%- assign fa_current_variant = product.selected_or_first_available_variant -%}
+{%- assign fa_variant_count = product.variants | size -%}
+{%- assign fa_count = 0 -%}
+
+{%- if fa_product_id == 'default' -%}
+{%- capture fa_product_id_value -%}shopify_{{ fa_product_id_alpha2_code }}_{{ product.id }}_{{ fa_current_variant.id }}{%- endcapture -%}
+{%- elsif fa_product_id == 'product_id' -%}
+{%- capture fa_product_id_value -%}{{ fa_current_variant.id }}{%- endcapture -%}
+{%- elsif fa_product_id == 'parent_id' -%}
+{%- capture fa_product_id_value -%}{{product.id }}{%- endcapture -%}
+{%- elsif fa_product_id == 'sku' -%}
+{%- capture fa_product_id_value -%}{{ fa_current_variant.sku | escape }}{%- endcapture -%}
+{%- endif -%}
+
+{%- if cart.currency.iso_code == 'GBP' or cart.currency.iso_code == 'USD' or cart.currency.iso_code == 'AUD' or cart.currency.iso_code == 'BWP' or cart.currency.iso_code == 'BND' or cart.currency.iso_code == 'DOP' or cart.currency.iso_code == 'GTQ' or cart.currency.iso_code == 'HKD' or cart.currency.iso_code == 'INR' or cart.currency.iso_code == 'ILS' or cart.currency.iso_code == 'YEN' or cart.currency.iso_code == 'KES' or cart.currency.iso_code == 'KOR' or cart.currency.iso_code == 'LBP' or cart.currency.iso_code == 'MYR' or cart.currency.iso_code == 'MXN' or cart.currency.iso_code == 'NPR' or cart.currency.iso_code == 'NZD' or cart.currency.iso_code == 'NIO' or cart.currency.iso_code == 'NGN' or cart.currency.iso_code == 'PKR' or cart.currency.iso_code == 'CNY' or cart.currency.iso_code == 'PHP' or cart.currency.iso_code == 'SGD' or cart.currency.iso_code == 'LKR' or cart.currency.iso_code == 'CHF' or cart.currency.iso_code == 'TWD' or cart.currency.iso_code == 'TSH' or cart.currency.iso_code == 'THB' or cart.currency.iso_code == 'UGX' or cart.currency.iso_code == 'KWD' or cart.currency.iso_code == 'CLP' -%}
+{%- assign fa_product_price = fa_current_variant.price | money_without_currency | remove:',' -%}
+{%- else -%}
+{%- assign fa_product_price = fa_current_variant.price | money_without_currency | remove:'.' | replace: ',', '.' -%}
+{%- endif -%}
 
 <script type="application/ld+json" data-creator_name="FeedArmy">
   {
@@ -605,8 +648,6 @@
   {%- endif -%}
   <!-- Copyright FeedArmy 2021 Version 3.06 -->
   
-
-
 {% schema %}
 {
   "name": "t:sections.main-product.name",
