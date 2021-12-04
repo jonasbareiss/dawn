@@ -1,10 +1,19 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "settings": {
+      }
+    },
+    "1631124129f5618e4c": {
+      "type": "page",
+      "settings": {
+        "page": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1631124129f5618e4c"
   ]
 }

@@ -544,7 +544,7 @@
     {%- endif -%}
       "productID": "{{ product.id }}",
     "brand": {
-      "@type": "Thing",
+      "@type": "Brand",
       "name": "{{ product.vendor | escape }}"
     },
     "description": {{ product.description | strip_html | json }},
