@@ -1,10 +1,42 @@
 {
   "sections": {
+    "1637684252a64e8a70": {
+      "type": "rich-text",
+      "blocks": {
+        "16376842524dfbd58f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tipps für sicheres Ankern & Festmachen",
+            "heading_size": "h1"
+          }
+        },
+        "954865f9-768c-4546-b81a-0ca33f0cfbd5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Infos für Bootsfahrer die Sicherheit auf dem Boot für Ihre Familie und Freunde voraussetzen.<br\/>So gelingt der unbesorgte Urlaub mit Spaß und Entspannung an deinem Lieblings-Wasserort.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16376842524dfbd58f-0",
+        "954865f9-768c-4546-b81a-0ca33f0cfbd5"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "main": {
-      "type": "main-blog"
+      "type": "main-blog",
+      "settings": {
+        "show_image": true,
+        "show_date": true,
+        "show_author": false
+      }
     }
   },
   "order": [
+    "1637684252a64e8a70",
     "main"
   ]
 }
