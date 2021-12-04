@@ -2,15 +2,12 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "settings": {
-        "desktop_text_box_position": "flex-end"
-      },
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
             "heading": "Willkommen im Wasserort!",
-            "heading_size": "medium"          
+            "heading_size": "medium"
           }
         },
         "button": {
