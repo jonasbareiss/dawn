@@ -57,7 +57,7 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Professionell ausstatten",
+            "button_label": "Sicher preiswert ausstatten",
             "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false
           }
