@@ -138,9 +138,9 @@
     "1638214652e136b095": {
       "type": "featured-blog",
       "settings": {
-        "heading": "",
+        "heading": "News & Tipps",
         "blog": "interessantes",
-        "post_limit": 3,
+        "post_limit": 2,
         "show_image": true,
         "show_date": true,
         "show_author": false,
