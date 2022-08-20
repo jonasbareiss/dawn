@@ -21,7 +21,7 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "Willkommen im Wasserort",
+              "text": "",
               "color_scheme": "background-1",
               "link": ""
             }

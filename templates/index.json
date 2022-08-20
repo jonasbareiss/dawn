@@ -147,6 +147,54 @@
         "soft_background": false,
         "show_view_all": false
       }
+    },
+    "1661013821be22db3e": {
+      "type": "multicolumn",
+      "blocks": {
+        "166101382165fdfa92-1": {
+          "type": "column",
+          "settings": {
+            "title": "Was Kundinnen sagen:",
+            "text": "<p>Haben einen 22kg Jambo Anker [...] bestellt, die Vorzüge des Ankers sind hinlänglich bekannt, deshalb Bewertung hinsichtlich <strong>Service<\/strong>:<\/p><p><\/p><p><strong>Ausgezeichnet<\/strong>, [...] außerordentlich bemüht und man hat das Gefühl, dass man hier bei einer Firma bestellt, bei der <strong>Kundenservice <\/strong>noch etwas zählt!<br\/>Wir können die Firma Wasserort <strong>absolut empfehlen<\/strong>! - Manuela (06\/2022)<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166101382165fdfa92-0": {
+          "type": "column",
+          "settings": {
+            "title": "Guter Service ist mein Anspruch!",
+            "text": "<p>Feedback wie dieses lese ich gerne. Denn mir ist es wichtig, mehr als nur einen Bestell-Button zu bieten.<\/p><p>Ich<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166101382165fdfa92-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Eva_Wasserort.png",
+            "title": "Viele Grüße aus dem Wasserort, Eva",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166101382165fdfa92-1",
+        "166101382165fdfa92-0",
+        "166101382165fdfa92-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
@@ -155,6 +203,7 @@
     "featured_products",
     "16508966061e394647",
     "165089561835c3c181",
-    "1638214652e136b095"
+    "1638214652e136b095",
+    "1661013821be22db3e"
   ]
 }
