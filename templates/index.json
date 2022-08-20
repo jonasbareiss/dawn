@@ -155,7 +155,7 @@
           "type": "column",
           "settings": {
             "title": "Was Kundinnen sagen:",
-            "text": "<p>Haben einen 22kg Jambo Anker [...] bestellt, die Vorzüge des Ankers sind hinlänglich bekannt, deshalb Bewertung hinsichtlich <strong>Service<\/strong>:<\/p><p><\/p><p><strong>Ausgezeichnet<\/strong>, [...] außerordentlich bemüht und man hat das Gefühl, dass man hier bei einer Firma bestellt, bei der <strong>Kundenservice <\/strong>noch etwas zählt!<br\/>Wir können die Firma Wasserort <strong>absolut empfehlen<\/strong>! - Manuela (06\/2022)<\/p>",
+            "text": "<p>Haben einen 22kg Jambo Anker [...] bestellt, die Vorzüge des Ankers sind hinlänglich bekannt, deshalb Bewertung hinsichtlich <strong>Service<\/strong>:<br\/><br\/><strong>Ausgezeichnet<\/strong>, [...] außerordentlich bemüht und man hat das Gefühl, dass man hier bei einer Firma bestellt, bei der <strong>Kundenservice <\/strong>noch etwas zählt!<br\/>Wir können die Firma Wasserort <strong>absolut empfehlen!<\/strong><\/p><p><em>– Manuela (06\/2022)<\/em><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -164,9 +164,9 @@
           "type": "column",
           "settings": {
             "title": "Guter Service ist mein Anspruch!",
-            "text": "<p>Feedback wie dieses lese ich gerne. Denn mir ist es wichtig, mehr als nur einen Bestell-Button zu bieten.<\/p><p>Ich<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Feedback wie nebenstehend lese ich gerne. Denn mir ist es wichtig, <strong>mehr als Versand<\/strong> zu bieten.<\/p><p><br\/><strong>Beratung <\/strong>biete ich<strong> <\/strong>gerne in Sachen Ankergröße oder weiteres Zubehör – per Chat (Button unten rechts) oder über das <a href=\"\/pages\/kontakt\" title=\"Kontakt\">Kontaktformular<\/a>. Und ich schreibe immer wieder neue <strong>Blog-Artikel zu interessanten Themen<\/strong> rund ums Ankern und Festmachen.<\/p>",
+            "link_label": "Zum Blog",
+            "link": "shopify:\/\/blogs\/interessantes"
           }
         },
         "166101382165fdfa92-2": {
@@ -175,8 +175,8 @@
             "image": "shopify:\/\/shop_images\/Eva_Wasserort.png",
             "title": "Viele Grüße aus dem Wasserort, Eva",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Mehr über mich | Kontakt",
+            "link": "shopify:\/\/pages\/kontakt"
           }
         }
       },
@@ -186,12 +186,12 @@
         "166101382165fdfa92-2"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Über Wasserort",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "secondary",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
       }
