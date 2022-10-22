@@ -19,16 +19,24 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "",
+              "text": "Achtung",
               "color_scheme": "background-1",
+              "link": ""
+            }
+          },
+          "3dfc921a-0126-48da-938b-a514d6ef5227": {
+            "type": "announcement",
+            "settings": {
+              "text": "Kein Versand bis 2. November 2022!",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "3dfc921a-0126-48da-938b-a514d6ef5227"
         ],
         "settings": {
         }
