@@ -17,17 +17,25 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "e375f59c-f6b5-4c19-a129-68a4aa31fa41": {
+            "type": "announcement",
+            "settings": {
+              "text": "Bald wieder für Sie da.",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
           "3dfc921a-0126-48da-938b-a514d6ef5227": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "",
+              "text": "Kein Versand bis 30.01.2023, wir sind auf der Boot in Düsseldorf.",
               "color_scheme": "accent-2",
               "link": ""
             }
           }
         },
         "block_order": [
+          "e375f59c-f6b5-4c19-a129-68a4aa31fa41",
           "3dfc921a-0126-48da-938b-a514d6ef5227"
         ],
         "settings": {
