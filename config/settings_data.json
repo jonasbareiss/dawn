@@ -19,6 +19,7 @@
         "blocks": {
           "e375f59c-f6b5-4c19-a129-68a4aa31fa41": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Bald wieder für Sie da.",
               "color_scheme": "accent-1",
@@ -27,6 +28,7 @@
           },
           "3dfc921a-0126-48da-938b-a514d6ef5227": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Kein Versand bis 07.07.2023, Bestellungen werden ab dem 08.07. versandt.",
               "color_scheme": "accent-2",
