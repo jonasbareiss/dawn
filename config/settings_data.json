@@ -19,7 +19,6 @@
         "blocks": {
           "e375f59c-f6b5-4c19-a129-68a4aa31fa41": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "Bald wieder für Sie da.",
               "color_scheme": "accent-1",
@@ -28,9 +27,8 @@
           },
           "3dfc921a-0126-48da-938b-a514d6ef5227": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Kein Versand bis 28.08.2023, Bestellungen werden ab dem 29.08. wieder versendet.",
+              "text": "Kein Versand bis 01.11.2023, Bestellungen werden ab dem 02.11. wieder versendet.",
               "color_scheme": "accent-2",
               "link": ""
             }
